@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Цветочная лавка "Комплимент"</title>
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Start -->
+        <div id="nav">
+            <div class="navbar navbar-expand-md bg-light navbar-light">
+                <img src="img/logo.png" alt="logo">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#header" class="nav-link">Главная</a></li>
+                        <li class="nav-item"><a href="#process" class="nav-link">Как заказать</a></li>
+                        <li class="nav-item"><a href="#products" class="nav-link">Букеты</a></li>
+                        <li class="nav-item"><a href="#testimonial" class="nav-link">Отзывы</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Nav End -->
+        
+        <!-- Header Start-->
+        <div id="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 d-md-none d-block">
+                        <div class="header-img">
+                            <img src="img/product-header.png" alt="Product Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-content">
+                            <h2>Комплимент <br>в каждом букете</h2>
+                            <p>
+                                Создавайте волшебные моменты с нашими прекрасными букетами
+                            </p>
+                            <a class="btn" href="#products">Посмотреть ассортимент</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-md-block d-none"> 
+                        <div class="header-img">
+                            <img src="img/product-header.png" alt="Product Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End-->
+        
+        <!-- Mini Feature Start-->
+        <div id="feature-mini">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="fa fa-gift" aria-hidden="true"></i>
+                            <h3>Подарок</h3>
+                            <p>Сделай подарок</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <h3>Признание</h3>
+                            <p>Стань избранным</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            <h3>Одобрение</h3>
+                            <p>Получи одобрение</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="feature-item">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <h3>Сердце</h3>
+                            <p>Оставь свой след</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mini Feature End-->
+        
+        <!-- Feature Start-->
+        <div id="feature">
+            <div class="container">
+                <div class="section-header">
+                    <p>Наши</p>
+                    <h1>Преимущества</h1>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="product-feature">
+                            <div class="product-content">
+                                <h2>Доставка по Ростову-на-Дону 24/7 за 60−90 минут</h2>
+                                <p>Возможна доставка к точному времени. Сборка букета занимает от 10 до 30 минут. Доставка — от 15 до 60 минут.</p>
+                            </div>
+                            <div class="product-icon">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="product-feature">
+                            <div class="product-content">
+                                <h2>Бесплатная упаковка букета</h2>
+                                <p>Любая упаковка букета входит в стоимость. Мы не берем доплату за ленту, материалы, работу флориста.</p>
+                            </div>
+                            <div class="product-icon">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-img">
+                            <img src="img/product-features.png" alt="Product Image">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-feature">
+                            <div class="product-icon">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                            </div>
+                            <div class="product-content">
+                                <h2>Бесплатная открытка с вашим текстом</h2>
+                                <p>Просто пришлите нам текст и мы прикрепим к букету открытку с вашим послание.</p>
+                            </div>
+                        </div>
+                        <div class="product-feature">
+                            <div class="product-icon">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                            </div>
+                            <div class="product-content">
+                                <h2>Бесплатный комплект для ухода</h2>
+                                <p>С цветами отправим комплект для ухода и инструкцию. С ним цветы будут радовать получателя намного дольше.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End-->
+        
+
+
+        <!-- Process Start-->
+        <div id="process">
+            <div class="container">
+                <div class="section-header">
+                    <p>Как заказать</p>
+                    <h1>Букет</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="process-col">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <h2>Выберите букет</h2>
+                            <p>
+                                Выберите подходящие цветы из большого ассортимента различных сортов
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="process-col">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <h2>Выберите дизайн</h2>
+                            <p>
+                                Выберите упаковку и декор для букета, подходящие к поводу 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="process-col">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <h2>Позвоните нам</h2>
+                            <p>
+                                Заберите букет, который будет готов к указанной дате и времени
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+        <!-- Process End-->
+        
+        
+        <!-- Call To Action Start-->
+        <div id="call-to-action">
+            <div class="container">
+                <h2>Сделай заказ по телефону</h2>
+                <a class="btn" href="tel:+79045557977">Нажми для звонка</a>
+            </div>
+            <img src="img/newsletter-bg.png">
+        </div>
+        <!-- Call To Action End-->
+        
+        
+        <!-- Products Start -->
+        <div id="products">
+            <div class="container">
+                <div class="section-header">
+                    <p>АССОРТИМЕНТ</p>
+                    <h1>Букетов</h1>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Начало весны</h2>
+                                <p>Тюльпаны белые (51)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-1.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽13 306</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Сливочный десерт</h2>
+                                <p>6 видов цветов </p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-2.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽5 109</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Корзинка любви</h2>
+                                <p>Розы (21)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-3.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽9 536</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Блаженство</h2>
+                                <p>Тюльпаны (75)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-4.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽15 240</h3>
+                                <a class="btn" href="#call-to-action">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Голубые ирисы</h2>
+                                <p>тюльпаны, ирисы</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-5.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽11 000</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Любящее сердце</h2>
+                                <p>роза (51), гипсофила (7)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-6.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽14 500</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Цветочек</h2>
+                                <p>Танацетум (21), лизиантус (12)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-7.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽8 000</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Белые сверчки</h2>
+                                <p>Танацетум (51)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-8.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽10 500</h3>
+                                <a class="btn" href="#call-to-action">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Небесный</h2>
+                                <p>5 видов цветов</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-9.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽5 000</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Джаспер</h2>
+                                <p>6 видов цветов </p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-10.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽8 500</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Сумерки</h2>
+                                <p>7 видов цветов</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-11.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽6 000</h3>
+                                <a class="btn" href="#process">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-single">
+                            <div class="product-title">
+                                <h2>Страсти огня</h2>
+                                <p>Тюльпаны (25)</p>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/product-12.png" alt="Product Image">
+                            </div>
+                            <div class="product-footer">
+                                <h3>₽4 700</h3>
+                                <a class="btn" href="#call-to-action">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Products End -->
+        
+        
+        <!-- Testimonial Start -->
+        <div id="testimonial">
+            <div class="container">
+                <div class="section-header">
+                    <p>О нас только положительные</p>
+                    <h1>Отзывы</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial-slider-nav">
+                            <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                            <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider">
+                                <div class="slider-item">
+                                    <h1>Анна Иванова</h1>
+                                    <h2>Клиент 1 год</h2>
+                                    <p>
+                                        Прекрасный выбор цветов и креативных букетов! Впечатлило качество обслуживания и профессионализм сотрудников.
+                                    </p>
+                                </div>
+                                <div class="slider-item">
+                                    <h1>Александр Смирнов</h1>
+                                    <h2>Клиент 4 года</h2>
+                                    <p>
+                                        Цветы всегда свежие и оформлены с любовью. Очень радует широкий ассортимент и доступные цены.
+                                    </p>
+                                </div>
+                                <div class="slider-item">
+                                    <h1>Екатерина Петрова</h1>
+                                    <h2>Клиент 6 месяцев</h2>
+                                    <p>
+                                        Заказывала цветы на свадьбу в Комплименте и осталась очень довольна! Букеты были идеально подобраны и создали уютную атмосферу на торжестве.
+                                    </p>
+                                </div>
+                                <div class="slider-item">
+                                    <h1>Дмитрий Козлов</h1>
+                                    <h2>Клиент 2 месяца</h2>
+                                    <p>
+                                        Люблю заглядывать в этот магазин за вдохновением и радостными моментами. Всегда уходишь оттуда с улыбкой и настроением. Спасибо за вашу работу!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End --> 
+        
+        <!-- Contact Start -->
+        <div id="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <h2>Мы находимся</h2>
+                            <p>
+                                Вы можете заказать комплимент в виде букета он-лайн или придти к нам в магазин
+                            </p>
+                            <h3><i class="fa fa-map-marker"></i>Ростов-на-Дону, ул. Таганрогская 177</h3>
+                            <h3><i class="fa fa-envelope"></i>compliment-sales@gmail.com</h3>
+                            <h3><i class="fa fa-phone"></i>+7 904 555 79 77</h3>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Start -->
+
+
+        <!-- Footer Start -->
+        <div id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; Copyright Compliment</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
